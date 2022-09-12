@@ -1,9 +1,10 @@
-import './App.css';
+import Counter from './features/counter/Counter';
 
 function App() {
   return (
-    <div className="App">
-      <h1>BASIC PAGE</h1>
+    <div>
+      <h1>Counter App</h1>
+      <Counter />
     </div>
   );
 }
